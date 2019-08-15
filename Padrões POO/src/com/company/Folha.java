@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Folha {
     ArrayList<Funcionario> ListaFuncionarios = new ArrayList<Funcionario>();
-    int dia = 1;
+    public int dia = 1;
 
     public ArrayList<Funcionario> getListaFuncionarios() {
         return ListaFuncionarios;
